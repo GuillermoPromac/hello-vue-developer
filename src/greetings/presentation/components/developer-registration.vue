@@ -66,5 +66,27 @@ function clearFields() {
 </template>
 
 <style scoped>
+button {
+  margin-right: 10px;
+  padding: 8px 16px;
+  cursor: pointer;
+}
 
+.error {
+  color: #d32f2f;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.field {
+  margin-bottom: 10px;
+}
+
+.actions {
+  margin-top: 10px;
+}
+
+label {
+  margin-right: 5px;
+}
 </style>
